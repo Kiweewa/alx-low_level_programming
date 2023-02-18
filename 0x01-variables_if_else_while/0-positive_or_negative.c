@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <time.h>
+#include <stdlib.h>
 /**
  * main - print if n is positive,negative or zero
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int n,
+	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -21,3 +22,4 @@ int main(void)
 		printf("invalid input");
 	}
 	return (0);
+}
