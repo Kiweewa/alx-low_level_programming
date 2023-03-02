@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * reverse_array - reverse array of integers
- * @a: array
- * @n: number of elements of array
+ * string_toupper - change all lowercase to uppercase
+ * @n: pointer
  *
- * Return: void
+ * Return: n
  */
+
 void reverse_array(int *a, int n)
 {
 	int i;
